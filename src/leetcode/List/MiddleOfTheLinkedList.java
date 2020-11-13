@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.List;
 
 /**
  * 876. 链表的中间结点

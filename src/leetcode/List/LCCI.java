@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.List;
 
 /**
  * 面试题 02.02. 返回倒数第 k 个节点
