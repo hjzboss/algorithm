@@ -4,10 +4,10 @@ import Heap.IndexMinPQ;
 import Stack.stack;
 
 public class DijkstraSP {
-    private DirectedEdge[] edgeTo;
-    private double[] distTo;
-    private IndexMinPQ<Double> pq;
     private final int s;
+    private final DirectedEdge[] edgeTo;
+    private final double[] distTo;
+    private final IndexMinPQ<Double> pq;
 
     public DijkstraSP(EdgeWeightedDigraph g, int s) {
         this.s = s;
@@ -22,6 +22,23 @@ public class DijkstraSP {
         pq.insert(s, 0.0);
         while (!pq.isEmpty()) {
             relax(g, pq.delMin());
+        }
+    }
+
+    public static void main(String[] args) {
+        EdgeWeightedDigraph g = new EdgeWeightedDigraph(5);
+        g.addEdge(new DirectedEdge(0, 1, 10.0));
+        g.addEdge(new DirectedEdge(1, 2, 50));
+        g.addEdge(new DirectedEdge(0, 4, 100));
+        g.addEdge(new DirectedEdge(0, 3, 30));
+        g.addEdge(new DirectedEdge(2, 4, 10.0));
+        g.addEdge(new DirectedEdge(3, 4, 60));
+        g.addEdge(new DirectedEdge(3, 2, 20));
+        DijkstraSP dijkstraSP = new DijkstraSP(g, 0);
+        System.out.println(dijkstraSP.distTo(3));
+        Iterable<DirectedEdge> path = dijkstraSP.pathTo(2);
+        for (DirectedEdge e : path) {
+            System.out.print(e.toString() + " ");
         }
     }
 
@@ -52,22 +69,5 @@ public class DijkstraSP {
             path.push(edgeTo[v]);
         }
         return path;
-    }
-
-    public static void main(String[] args) {
-        EdgeWeightedDigraph g = new EdgeWeightedDigraph(5);
-        g.addEdge(new DirectedEdge(0, 1, 10.0));
-        g.addEdge(new DirectedEdge(1, 2, 50));
-        g.addEdge(new DirectedEdge(0, 4, 100));
-        g.addEdge(new DirectedEdge(0, 3, 30));
-        g.addEdge(new DirectedEdge(2, 4, 10.0));
-        g.addEdge(new DirectedEdge(3, 4, 60));
-        g.addEdge(new DirectedEdge(3, 2, 20));
-        DijkstraSP dijkstraSP = new DijkstraSP(g, 0);
-        System.out.println(dijkstraSP.distTo(3));
-        Iterable<DirectedEdge> path = dijkstraSP.pathTo(2);
-        for (DirectedEdge e : path) {
-            System.out.print(e.toString() + " ");
-        }
     }
 }
