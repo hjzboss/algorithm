@@ -3,12 +3,12 @@ package leetcode.string;
 /**
  * 5. 最长回文子串
  * 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
- *
+ * <p>
  * 示例 1：
  * 输入: "babad"
  * 输出: "bab"
  * 注意: "aba" 也是一个有效答案。
- *
+ * <p>
  * 示例 2：
  * 输入: "cbbd"
  * 输出: "bb"
@@ -33,19 +33,18 @@ public class LongestPalindromicSubstring {
             char[] str = s.toCharArray();
 
             //对角线上的值都为true，因为单个字符也是一个回文子串
-            for(int i = 0;i < len;i++){
+            for (int i = 0; i < len; i++) {
                 dp[i][i] = true;
             }
 
-            for(int j = 1;j < len;j++) {
-                for(int i = 0;i < j;i++) {
-                    if(str[i] == str[j]) {
+            for (int j = 1; j < len; j++) {
+                for (int i = 0; i < j; i++) {
+                    if (str[i] == str[j]) {
                         //如果子串长度j-1-(i+1)+1 < 2，则为回文串，否则转移状态
-                        if(j - i < 3) {
+                        if (j - i < 3) {
                             dp[i][j] = true;
-                        }
-                        else {
-                            dp[i][j] = dp[i+1][j-1];
+                        } else {
+                            dp[i][j] = dp[i + 1][j - 1];
                         }
                     }
                     //如果为回文子串，则计算最大长度，记录长度
@@ -58,7 +57,7 @@ public class LongestPalindromicSubstring {
                     }
                 }
             }
-            return s.substring(begin,begin + maxLen);
+            return s.substring(begin, begin + maxLen);
         }
     }
 }
