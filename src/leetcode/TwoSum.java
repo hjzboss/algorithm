@@ -20,7 +20,7 @@ public class TwoSum {
 
     /**
      * 哈希表：将数组中的值当做键，下标当做值。遍历数组，如果表中不存在为target-nums[i]的键，
-     * 则将该数组元素和下标加入表中，否则返回。
+     *      则将该数组元素和下标加入表中，否则返回。
      */
     class Solution {
         public int[] twoSum(int[] nums, int target) {

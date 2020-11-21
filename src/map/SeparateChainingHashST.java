@@ -4,9 +4,9 @@ package map;
  *基于链表的散列表
  *  */
 public class SeparateChainingHashST<Key, Value> {
-    private int N;
     private final int M;
     private final SequentialSearchST<Key, Value>[] st;
+    private int N;
 
     public SeparateChainingHashST() {
         this(997);

@@ -3,9 +3,9 @@ package map;
 import queue.queue;
 
 public class BinarySearchST<Key extends Comparable<Key>, Value> {
-    int N;
     private final Key[] keys;
     private final Value[] vals;
+    int N;
 
     public BinarySearchST(int Capacity) {
         keys = (Key[]) new Comparable[Capacity];
