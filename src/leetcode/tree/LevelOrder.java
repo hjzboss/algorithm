@@ -32,12 +32,6 @@ import java.util.Queue;
  * 复制
  * [[1],[2,3],[4,5]]
  */
-class TreeNode {
-    int val = 0;
-    TreeNode left = null;
-    TreeNode right = null;
-}
-
 public class LevelOrder {
     /**
      * 二叉树的层次遍历
