@@ -7,7 +7,7 @@ public interface Sort {
         return v.compareTo(w)<0;
     }
 
-    static boolean lesse(Comparable v,Comparable w){
+    static boolean lessAndEqual(Comparable v, Comparable w){
         return ((v.compareTo(w)<0)||(v.compareTo(w)==0));
     }
 
@@ -24,10 +24,11 @@ public interface Sort {
         }
     }
 
-    static boolean isorted(Comparable[] a){
+    static boolean isSorted(Comparable[] a){
         for(int i = 1;i<a.length;i++){
             if(less(a[i],a[i-1])) return false;
         }
         return true;
     }
 }
+

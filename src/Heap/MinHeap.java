@@ -49,14 +49,5 @@ public class MinHeap<T extends Comparable<T>> {
     private boolean less(int i, int j) {
         return pq[i].compareTo(pq[j]) < 0;
     }
-
-//    public static void main(String[] args) {
-//        MinHeap<Integer> im = new MinHeap<>(5);
-//        im.insert(1);
-//        im.insert(5);
-//        im.insert(0);
-//        im.insert(-1);
-//        System.out.println(im.delete());
-//    }
 }
 
