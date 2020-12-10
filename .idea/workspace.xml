@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="156ba114-97d4-44d1-84aa-68b97a3d183f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/greedy/LemonadeChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/List/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/List/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/List/LCOF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/List/LCOF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/List/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/List/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/List/OddEvenLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/List/OddEvenLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +207,7 @@
       <workItem from="1592400213182" duration="671000" />
       <workItem from="1592404155129" duration="1813000" />
       <workItem from="1592577578564" duration="42000" />
-      <workItem from="1607587749339" duration="689000" />
+      <workItem from="1607587749339" duration="2019000" />
     </task>
     <servers />
   </component>

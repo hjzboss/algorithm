@@ -1,5 +1,8 @@
 package leetcode.List;
 
+/**
+ * 参考链表
+ */
 public class ListNode {
     int val;
     ListNode next;

@@ -41,6 +41,7 @@ public class OddEvenLinkedList {
                 return head;
             }
 
+            //even是偶，odd是奇
             ListNode evenHead = head.next;
             ListNode odd = head;
             ListNode even = evenHead;
