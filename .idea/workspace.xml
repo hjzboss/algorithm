@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="156ba114-97d4-44d1-84aa-68b97a3d183f" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/List/LCOF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/List/LCOF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/List/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/List/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/List/OddEvenLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/List/OddEvenLinkedList.java" afterDir="false" />
-    </list>
+    <list default="true" id="156ba114-97d4-44d1-84aa-68b97a3d183f" name="默认更改列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../vue" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -107,17 +102,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -208,6 +192,7 @@
       <workItem from="1592404155129" duration="1813000" />
       <workItem from="1592577578564" duration="42000" />
       <workItem from="1607587749339" duration="2019000" />
+      <workItem from="1607648502855" duration="10000" />
     </task>
     <servers />
   </component>
@@ -215,6 +200,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1607648511350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607648511350" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1607587840526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
