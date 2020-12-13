@@ -6,12 +6,15 @@ import java.util.Queue;
 
 //单词查找树
 public class TrieST<Value> {
-    private static int R = 256;
+    private static final int R = 256;
     private Node root;
 
-    private static class Node {
-        private Object val;
-        private Node[] next = new Node[R];
+    public static void main(String[] args) {
+        TrieST<Integer> st = new TrieST<>();
+        st.put("fuck", 1);
+        st.put("shit", 2);
+
+        System.out.println(st.longestPrefixOf("fucker"));
     }
 
     public Value get(String Key) {
@@ -81,24 +84,21 @@ public class TrieST<Value> {
     }
 
     //寻找最长前缀
-    public String longestPrefixOf(String s){
-        int length = search(root,s,0,0);
-        return s.substring(0,length);
+    public String longestPrefixOf(String s) {
+        int length = search(root, s, 0, 0);
+        return s.substring(0, length);
     }
 
-    private int search(Node x,String s,int d,int length){
-        if(x == null) return length;
-        if(x.val != null) length = d;
-        if(d == s.length()) return length;
+    private int search(Node x, String s, int d, int length) {
+        if (x == null) return length;
+        if (x.val != null) length = d;
+        if (d == s.length()) return length;
         char c = s.charAt(d);
-        return search(x.next[c],s,d+1,length);
+        return search(x.next[c], s, d + 1, length);
     }
 
-    public static void main(String[] args) {
-        TrieST<Integer> st = new TrieST<>();
-        st.put("fuck", 1);
-        st.put("shit", 2);
-
-        System.out.println(st.longestPrefixOf("fucker"));
+    private static class Node {
+        private Object val;
+        private final Node[] next = new Node[R];
     }
 }
