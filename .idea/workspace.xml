@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="156ba114-97d4-44d1-84aa-68b97a3d183f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/RadixSortA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/string/GroupAnagrams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Heap/MaxHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Heap/MaxHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/META-INF/algorithm.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Path/DijkstraSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Path/DijkstraSP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Path/EdgeWeightedDigraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Path/EdgeWeightedDigraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Path/bellmanford.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Path/bellmanford.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Search/LocalMininum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Search/LocalMininum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Search/binarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Search/binarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Search/bitonicSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Search/bitonicSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/map/BST$node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/map/BST$node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/map/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/map/BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/map/BinarySearchST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/map/BinarySearchST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/map/SeparateChainingHashST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/map/SeparateChainingHashST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/map/SequentialSearchST$node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/map/SequentialSearchST$node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/map/SequentialSearchST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/map/SequentialSearchST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/sort/Merge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/sort/Merge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/sort/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/sort/Shell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/sort/Shell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/sort/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/sort/Sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/sort/demo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/sort/demo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/string/LSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/string/LSD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/string/TrieST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/string/TrieST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/string/TrieST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/string/TrieST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/LSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/LSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/TrieST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/TrieST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +23,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1awbjFYZrHeqyMar56xkpVKITL1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -134,15 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -236,6 +213,7 @@
       <workItem from="1607648502855" duration="10000" />
       <workItem from="1607760329020" duration="233000" />
       <workItem from="1607848103052" duration="1417000" />
+      <workItem from="1608038413317" duration="200000" />
     </task>
     <servers />
   </component>
