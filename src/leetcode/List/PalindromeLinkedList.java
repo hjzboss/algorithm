@@ -30,7 +30,7 @@ public class PalindromeLinkedList {
 
     //方法一，使用数组列表，时间复杂度为O(N),空间复杂度为O(N)
     public boolean isPalindrome1(ListNode head) {
-        List<Integer> arr = new ArrayList<Integer>();
+        List<Integer> arr = new ArrayList<>();
         while (head != null) {
             arr.add(head.val);
             head = head.next;
