@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="156ba114-97d4-44d1-84aa-68b97a3d183f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/DP/MinCostClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/string/IsomorphicStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,15 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -221,6 +219,8 @@
       <workItem from="1608393175625" duration="1739000" />
       <workItem from="1608442373198" duration="8674000" />
       <workItem from="1608564892572" duration="306000" />
+      <workItem from="1608647590729" duration="971000" />
+      <workItem from="1609060199379" duration="364000" />
     </task>
     <servers />
   </component>
@@ -236,10 +236,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1608371559199" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1608296775251">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1608647972429">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608296775251" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608647972429" />
     <state width="723" height="243" key="GridCell.Tab.0.bottom" timestamp="1608451054569">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -276,6 +276,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607587840526" />
+    <state x="186" y="10" width="1194" height="780" key="new project wizard" timestamp="1608647886131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="186" y="10" width="1194" height="780" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1608647886131" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607849223673">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
