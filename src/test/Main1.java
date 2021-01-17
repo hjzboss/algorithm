@@ -1,69 +1,53 @@
 package test;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
+class Pair {
+    int x;
+    int y;
+
+    public Pair(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+}
+
 public class Main1 {
+    private static final Queue<Pair> queue = new LinkedList<>();
+
     public static void main(String[] args) {
         Scanner cin = new Scanner(System.in);
-        long a1 = cin.nextInt();
-        long a2 = cin.nextInt();
-
-        long temp;
-        int i = 10;
-        for (; i > 0; i--) {
-            temp = a1 * a2;
-            if(a1 > 0 && a2 >0){
-                if(temp < a1 || temp < a2){
-                    break;
-                }
-            }
-            if(a1 < 0 && a2 > 0){
-                if(temp > 0){
-                    break;
-                }else{
-                    long tmp = -temp;
-                    long a = -a1;
-                    if(tmp < a || tmp < a2){
-                        break;
+        int n = cin.nextInt();
+        int m = cin.nextInt();
+        int t = cin.nextInt();
+        int[][] plants = new int[n][m];
+        for (int i = 0; i < t; i++) {
+            int t1 = cin.nextInt();
+            int t2 = cin.nextInt();
+            plants[t1 - 1][t2 - 1] = 1;
+            queue.offer(new Pair(t1 - 1, t2 - 1));
+        }
+        int k = cin.nextInt();
+        int[] mx = {0, 0, -1, 1};
+        int[] my = {1, -1, 0, 0};
+        int num = t;
+        for (; !queue.isEmpty() && k > 0; k--) {
+            int size = queue.size();
+            for (int j = 0; j < size; j++) {
+                Pair poll = queue.poll();
+                for (int v = 0; v < 4; v++) {
+                    int x = poll.x + mx[v];
+                    int y = poll.y + my[v];
+                    if (x >= 0 && x < n && y >= 0 && y < m && plants[x][y] == 0) {
+                        plants[x][y] = 1;
+                        queue.offer(new Pair(x, y));
+                        num++;
                     }
                 }
             }
-            if(a1 > 0 && a2 < 0){
-                if(temp > 0){
-                    break;
-                }else{
-                    long tmp = -temp;
-                    long a = -a2;
-                    if(tmp < a || tmp < a1){
-                        break;
-                    }
-                }
-            }
-            if(a1 < 0 && a2 < 0){
-                if(temp < 0) break;
-                long tmp = -temp;
-                if(tmp > a1 || tmp > a2){
-                    break;
-                }
-            }
-            if (temp < 10000 && temp > -10000) {
-                if (i == 10) {
-                    System.out.print(temp);
-                } else {
-                    System.out.print(" " + temp);
-                }
-            } else {
-                break;
-            }
-            a1 = a2;
-            a2 = temp;
         }
-        for (; i > 0; i--) {
-            if (i == 10) {
-                System.out.print(0);
-            }
-            else System.out.print(" " + 0);
-        }
-        System.out.println();
+        System.out.println(num);
     }
 }
