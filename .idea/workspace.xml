@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="156ba114-97d4-44d1-84aa-68b97a3d183f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/POJ/greedy/BestCowLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="156ba114-97d4-44d1-84aa-68b97a3d183f" name="默认更改列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,17 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BestCowLine" />
@@ -226,6 +212,7 @@
       <workItem from="1610859562545" duration="78000" />
       <workItem from="1611572576106" duration="1246000" />
       <workItem from="1611631298703" duration="3561000" />
+      <workItem from="1611661490883" duration="267000" />
     </task>
     <servers />
   </component>
