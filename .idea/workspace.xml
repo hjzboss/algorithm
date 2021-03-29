@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="156ba114-97d4-44d1-84aa-68b97a3d183f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/FlippingImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/DP/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/bit/ReverseBits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,6 +229,8 @@
       <workItem from="1611631298703" duration="3561000" />
       <workItem from="1611661490883" duration="267000" />
       <workItem from="1614135260412" duration="263000" />
+      <workItem from="1616509427000" duration="2551000" />
+      <workItem from="1617029129392" duration="566000" />
     </task>
     <servers />
   </component>
