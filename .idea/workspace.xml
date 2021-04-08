@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="156ba114-97d4-44d1-84aa-68b97a3d183f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/fuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/lanqiao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/lanqiao_7错误票据.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/shit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Draft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Fortune.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/POJ/greedy/BestCowLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/POJ/greedy/BestCowLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/test/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/test/Main3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/test/fuckPu.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +48,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Main3" />
+  <component name="RunManager" selected="Application.Draft">
+    <configuration name="Draft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Draft" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +62,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fuck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.fuck" />
+    <configuration name="Fortune" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Fortune" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Main3" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -105,39 +114,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.shit" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Draft" />
+        <item itemvalue="Application.Fortune" />
         <item itemvalue="Application.lanqiao_7错误票据" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.lanqiao" />
-        <item itemvalue="Application.shit" />
-        <item itemvalue="Application.fuck" />
       </list>
     </recent_temporary>
   </component>
@@ -241,6 +235,9 @@
       <workItem from="1617202179857" duration="3890000" />
       <workItem from="1617375357381" duration="3231000" />
       <workItem from="1617548731018" duration="1730000" />
+      <workItem from="1617633734649" duration="4634000" />
+      <workItem from="1617807355426" duration="3200000" />
+      <workItem from="1617893410548" duration="3409000" />
     </task>
     <servers />
   </component>
