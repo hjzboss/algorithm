@@ -6,17 +6,17 @@ import java.util.LinkedList;
 /**
  * 面试题 04.01. 节点间通路
  * 节点间通路。给定有向图，设计一个算法，找出两个节点之间是否存在一条路径。
- *
+ * <p>
  * 示例1:
- *
- *  输入：n = 3, graph = [[0, 1], [0, 2], [1, 2], [1, 2]], start = 0, target = 2
- *  输出：true
+ * <p>
+ * 输入：n = 3, graph = [[0, 1], [0, 2], [1, 2], [1, 2]], start = 0, target = 2
+ * 输出：true
  * 示例2:
- *
- *  输入：n = 5, graph = [[0, 1], [0, 2], [0, 4], [0, 4], [0, 1], [1, 3], [1, 4], [1, 3], [2, 3], [3, 4]], start = 0, target = 4
- *  输出 true
+ * <p>
+ * 输入：n = 5, graph = [[0, 1], [0, 2], [0, 4], [0, 4], [0, 1], [1, 3], [1, 4], [1, 3], [2, 3], [3, 4]], start = 0, target = 4
+ * 输出 true
  * 提示：
- *
+ * <p>
  * 节点数量n在[0, 1e5]范围内。
  * 节点编号大于等于 0 小于 n。
  * 图中可能存在自环和平行边。
@@ -40,8 +40,8 @@ public class RouteBetweenNodesLCCI {
      */
     class Solution {
         public boolean findWhetherExistsPath(int n, int[][] graph, int start, int target) {
-            G g = new G(graph,n);
-            g.bfs(start);
+            G g = new G(graph, n);
+            g.dfs(start);
             return g.isConnected(target);
         }
     }
@@ -54,26 +54,26 @@ public class RouteBetweenNodesLCCI {
             arr = new HashMap<>();
             this.marked = new boolean[100000];
             for (int[] a : edges) {
-                if(!arr.containsKey(a[0])){
+                if (!arr.containsKey(a[0])) {
                     LinkedList<Integer> list = new LinkedList<>();
                     list.add(a[1]);
-                    arr.put(a[0],list);
-                }else{
+                    arr.put(a[0], list);
+                } else {
                     arr.get(a[0]).add(a[1]);
                 }
             }
         }
 
-        public void bfs(int start) {
-            if(!arr.containsKey(start)) return;
+        public void dfs(int start) {
+            if (!arr.containsKey(start)) return;
             marked[start] = true;
             f(start);
         }
 
-        private void f(int start){
+        private void f(int start) {
             for (Object i : arr.get(start)) {
                 marked[(Integer) i] = true;
-                if (arr.containsKey(i)) bfs((Integer) i);
+                if (arr.containsKey(i)) dfs((Integer) i);
             }
         }
 

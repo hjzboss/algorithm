@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="156ba114-97d4-44d1-84aa-68b97a3d183f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/Draft1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/RightMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/test/Draft.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/test/Draft.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Draft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Draft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/test/Draft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/test/Draft1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/test/Draft1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/graph/RouteBetweenNodesLCCI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/graph/RouteBetweenNodesLCCI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Draft.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Draft1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Draft1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,26 +54,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ggsdduyjl-bookshop-master/bookshop" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Draft1">
-    <configuration name="Draft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Draft" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.testn">
     <configuration name="Draft1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Draft1" />
       <module name="algorithm" />
@@ -96,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Main3" />
+    <configuration name="RightMove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.RightMove" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -122,24 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="testn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.testn" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testn" />
         <item itemvalue="Application.Draft1" />
-        <item itemvalue="Application.Draft" />
+        <item itemvalue="Application.RightMove" />
         <item itemvalue="Application.Fortune" />
         <item itemvalue="Application.lanqiao_7错误票据" />
-        <item itemvalue="Application.Main3" />
       </list>
     </recent_temporary>
   </component>
@@ -248,6 +241,10 @@
       <workItem from="1617893410548" duration="3409000" />
       <workItem from="1617979732614" duration="4714000" />
       <workItem from="1618150965786" duration="2279000" />
+      <workItem from="1618238085057" duration="2297000" />
+      <workItem from="1618325108414" duration="3459000" />
+      <workItem from="1618668665643" duration="7174000" />
+      <workItem from="1625843325424" duration="17000" />
     </task>
     <servers />
   </component>
