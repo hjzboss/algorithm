@@ -1,10 +1,15 @@
 package string;
 
 
-//低位优先的字符串排序，计数基数排序
+/**
+ * 低位优先的字符串排序，计数基数排序
+ */
 public class LSD {
-    /*
+    /**
      * 通过前w个字符将a[]排序
+     *
+     * @param a 待排序数组
+     * @param w 根据前w个字符排序
      */
     public static void sort(String[] a, int w) {
         int N = a.length;

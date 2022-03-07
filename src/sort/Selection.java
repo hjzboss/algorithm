@@ -8,9 +8,9 @@ public class Selection implements Sort {
         for(int i = 0;i<N;i++){
             min = i;
             for(int j = i+1;j<N;j++){
-                if(Sort.less(a[j],a[min])) min = j;
+                if(SortUtils.less(a[j],a[min])) min = j;
             }
-            Sort.exch(a,i,min);
+            SortUtils.exch(a,i,min);
         }
     }
 }

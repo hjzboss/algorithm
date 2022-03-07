@@ -14,7 +14,7 @@ public class demo1 {
         Random random = new Random();
         Shell sh = new Shell();
         QuickSort qs = new QuickSort();
-        for(int i = 0;i<a.length;i++){
+        for (int i = 0; i < a.length; i++) {
             a[i] = random.nextInt();
             b[i] = random.nextInt();
             c[i] = random.nextInt();
@@ -24,22 +24,22 @@ public class demo1 {
         StopWatch s1 = new StopWatch();
         MaxHeap.sort(a);
         System.out.println(s1.elapsedTime());
-        System.out.println(Sort.isSorted(a));//堆排序略慢与快速排序
+        System.out.println(SortUtils.isSorted(a, true));//堆排序略慢与快速排序
 
         StopWatch s2 = new StopWatch();
         qs.sort(b);
         System.out.println(s2.elapsedTime());
-        System.out.println(Sort.isSorted(b));//快速排序最快
+        System.out.println(SortUtils.isSorted(b, true));//快速排序最快
 
         StopWatch s3 = new StopWatch();
         sh.sort(c);
         System.out.println(s3.elapsedTime());
-        System.out.println(Sort.isSorted(c));//希尔排序最次
+        System.out.println(SortUtils.isSorted(c, true));//希尔排序最次
 
         StopWatch s4 = new StopWatch();
         Merge.sort2(d);
         System.out.println(s4.elapsedTime());//归并排序次之
-        System.out.println(Sort.isSorted(d));
+        System.out.println(SortUtils.isSorted(d, true));
 
 
     }

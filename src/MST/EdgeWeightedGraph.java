@@ -11,7 +11,7 @@ import java.util.HashSet;
 public class EdgeWeightedGraph {
     private final int v;
     private int E;
-    private Bag<Edge> adj[];
+    private final Bag<Edge>[] adj;
 
     public EdgeWeightedGraph(int v) {
         this.v = v;
@@ -46,9 +46,7 @@ public class EdgeWeightedGraph {
         HashSet<Edge> edge = new HashSet<>();
         for (int i = 0; i < getV(); i++) {
             for (Edge e : getAdj(i)) {
-                if (!edge.contains(e)) {
-                    edge.add(e);
-                }
+                edge.add(e);
             }
         }
         return edge;

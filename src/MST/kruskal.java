@@ -25,18 +25,6 @@ public class kruskal {
         }
     }
 
-    public Iterable<Edge> edges() {
-        return mst;
-    }
-
-    public double weight() {
-        double sum = 0.0;
-        for (Edge e : edges()) {
-            sum += e.getWeight();
-        }
-        return sum;
-    }
-
     public static void main(String[] args) {
         EdgeWeightedGraph g = new EdgeWeightedGraph(5);
         g.addEdge(new Edge(0, 1, 1.0));
@@ -55,5 +43,17 @@ public class kruskal {
             System.out.println(e.toString());
         }
         System.out.println(k.weight());
+    }
+
+    public Iterable<Edge> edges() {
+        return mst;
+    }
+
+    public double weight() {
+        double sum = 0.0;
+        for (Edge e : edges()) {
+            sum += e.getWeight();
+        }
+        return sum;
     }
 }

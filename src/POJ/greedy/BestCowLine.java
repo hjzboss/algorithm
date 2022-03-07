@@ -79,7 +79,7 @@ public class BestCowLine {
             if (left) System.out.print(s[a++]);
             else System.out.print(s[b--]);
             count++;
-            if(count >= 80) {
+            if (count >= 80) {
                 count = 0;
                 System.out.println();
             }

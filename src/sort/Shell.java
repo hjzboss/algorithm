@@ -14,7 +14,7 @@ public class Shell implements Sort {
             int i, j;
             for (i = h; i < N; i++) {
                 temp = a[i];
-                for (j = i; j >= h && Sort.less(temp, a[j - h]); j -= h) {
+                for (j = i; j >= h && SortUtils.less(temp, a[j - h]); j -= h) {
                     a[j] = a[j - h];
                 }
                 a[j] = temp;

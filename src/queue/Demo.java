@@ -12,8 +12,8 @@ public class Demo {
             else if (!queue.isEmpty()) System.out.println(queue.dequeue() + " ");//遇见减号则出队
         }
         System.out.println("(" + queue.size() + " left on queue)");//队列中剩余元素数目
-        for(String a:queue){
-            System.out.print(a+" ");//打印剩余的元素
+        for (String a : queue) {
+            System.out.print(a + " ");//打印剩余的元素
         }
 
     }

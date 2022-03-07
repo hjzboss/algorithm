@@ -4,8 +4,8 @@ import bag.Bag;
 
 public class EdgeWeightedDigraph {
     private final int V;
-    private int E;
     private final Bag<DirectedEdge>[] adj;
+    private int E;
 
     public EdgeWeightedDigraph(int v) {
         V = v;

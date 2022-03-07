@@ -11,10 +11,10 @@ public class QuickSort implements Sort {
         Comparable t = a[lo];
         int i = lo, j = hi + 1;
         while (true) {
-            while (Sort.less(a[++i], t)) {
+            while (SortUtils.less(a[++i], t)) {
                 if (i >= hi) break;
             }
-            while (Sort.less(t, a[--j])) {
+            while (SortUtils.less(t, a[--j])) {
                 if (j <= lo) break;
             }
             if (i >= j) break;
@@ -79,14 +79,14 @@ public class QuickSort implements Sort {
         Comparable v = select(a, lo, hi);
         int i = lo, j = hi - 1;
         while (true) {
-            while (Sort.less(a[++i], v)) {
+            while (SortUtils.less(a[++i], v)) {
             }
-            while (Sort.less(v, a[--j])) {
+            while (SortUtils.less(v, a[--j])) {
             }
-            if (i < j) Sort.exch(a, i, j);
+            if (i < j) SortUtils.exch(a, i, j);
             else break;
         }
-        Sort.exch(a, i, hi - 1);
+        SortUtils.exch(a, i, hi - 1);
         return i;
     }
 
@@ -101,16 +101,16 @@ public class QuickSort implements Sort {
      */
     private Comparable select(Comparable[] a, int lo, int hi) {
         int mid = (hi + lo) / 2;
-        if (Sort.less(a[mid], a[lo])) {
-            Sort.exch(a, mid, lo);
+        if (SortUtils.less(a[mid], a[lo])) {
+            SortUtils.exch(a, mid, lo);
         }
-        if (Sort.less(a[hi], a[lo])) {
-            Sort.exch(a, hi, lo);
+        if (SortUtils.less(a[hi], a[lo])) {
+            SortUtils.exch(a, hi, lo);
         }
-        if (Sort.less(a[hi], a[mid])) {
-            Sort.exch(a, hi, mid);
+        if (SortUtils.less(a[hi], a[mid])) {
+            SortUtils.exch(a, hi, mid);
         }
-        Sort.exch(a, mid, hi - 1);//将其放置在倒数第二个位置充当哨兵
+        SortUtils.exch(a, mid, hi - 1);//将其放置在倒数第二个位置充当哨兵
         return a[hi - 1];
     }
 }
